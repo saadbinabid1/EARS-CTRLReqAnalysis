@@ -1,6 +1,6 @@
 # EARS-CTRLReqAnalysis
 
-This project is utilized for our MoDELS'17 ToolsDemo paper. This contains all the necessary files for the demo purpose.
+This project has all the code necessary to run the EARS-CTRL project for generating and simulating controllers from the EARS language 
 
 Video demo: https://youtu.be/????
 
