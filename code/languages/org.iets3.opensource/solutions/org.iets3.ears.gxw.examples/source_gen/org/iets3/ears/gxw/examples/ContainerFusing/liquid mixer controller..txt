@@ -1,0 +1,3 @@
+
+INPUT expired, expired, is_pressed, equals_level_l1, equals_level_l2, is_pressed
+OUTPUT stirring_motorstart, valve_1open, valve_0open, two_minute_timerstart, valve_2open, one_minute_timerstart

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/SimulationOutputChecker/org.iets3.simulationOutputChecker.mpl" folder="gxw" />
+      <modulePath path="$PROJECT_DIR$/languages/org.iets3.core.attributes/org.iets3.core.attributes.mpl" folder="core" />
+      <modulePath path="$PROJECT_DIR$/languages/org.iets3.core.base/org.iets3.core.base.mpl" folder="core" />
+      <modulePath path="$PROJECT_DIR$/languages/org.iets3.core.plugin/org.iets3.core.plugin.msd" folder="core" />
+      <modulePath path="$PROJECT_DIR$/languages/org.iets3.core.users/org.iets3.core.users.mpl" folder="core" />
+      <modulePath path="$PROJECT_DIR$/languages/org.iets3.ears.gxw/org.iets3.ears.gxw.mpl" folder="gxw" />
+      <modulePath path="$PROJECT_DIR$/languages/org.iets3.lustre/org.iets3.graphicalLustre.mpl" folder="gxw" />
+      <modulePath path="$PROJECT_DIR$/languages/org.iets3.simulink.resultmodel/org.iets3.simulink.resultmodel.mpl" folder="gxw" />
+      <modulePath path="$PROJECT_DIR$/solutions/MatlabEngine.lib/MatlabEngine.lib.msd" folder="gxw" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/org.iets3.ears.gxw.examples.msd" folder="gxw" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.iets3.opensource.allScripts.build/org.iets3.opensource.allScripts.build.msd" folder="_build" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.iets3.opensource.build/org.iets3.opensource.build.msd" folder="_build" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.iets3.structuralCoder/org.iets3.structuralCoder.msd" folder="gxw" />
+    </projectModules>
+  </component>
+</project>
