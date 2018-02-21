@@ -17,9 +17,9 @@ Video demo: https://youtu.be/z7xdDYrNLTo
 
     `git clone https://github.com/saadbinabid1/EARS-CTRLReqAnalysis.git`
 
-5. Copy and put the extracted version matlab.zip folder (available in this repo) containing the Simulink S-Function files and place them on the disk that are to be utilzed for the Simulation and test case generation
+5. Copy and put the extracted version matlab.zip folder (available in this repo) containing the Simulink S-Function files and place them on the disk that us to be used for the Simulation and test case generation
 
-6. Add the matlab folder path to MATLABPATH variable or use export command to add to path variable (in linux) (Reminder: Add <matlabroot>/bin to PATH variable of the system)
+6. Add the matlab folder path to MATLABPATH variable or use the export command to add to path variable (on Linux and Mac) (Reminder: Add <matlabroot>/bin to PATH variable of the system)
 
 7. Follow the instruction set to set up the matlab environment variable: https://www.mathworks.com/help/matlab/matlab_external/setup-environment.html
 
