@@ -31,6 +31,6 @@ Video demo: https://youtu.be/z7xdDYrNLTo
 
 10. Right-click on the _org.iets3.simulationOutputChecker_ language, select _module properties_ then select the _java_ tab and add the new library:
 
-`your_repo_root/code/languages/solutions/MatlabEngine.lib/engine.jar`
+    `your_repo_root/code/languages/solutions/MatlabEngine.lib/engine.jar`
 
 
