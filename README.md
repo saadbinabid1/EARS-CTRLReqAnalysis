@@ -26,4 +26,11 @@ Video demo: https://youtu.be/z7xdDYrNLTo
 8. Start MPS and open the _org.iets3.opensource_ project at:
 
     `your_repo_root/code/languages`
+    
+9. Right-click on the _org.iets3.ears.gxw_ language, select _module properties_ and adjust the libraries in the _java_ tab to your local org.iets3.opensource clone.
+
+10. Right-click on the _org.iets3.simulationOutputChecker_ language, select _module properties_ then select the _java_ tab and add the new library:
+
+`your_repo_root/code/languages/solutions/MatlabEngine.lib/engine.jar`
+
 
