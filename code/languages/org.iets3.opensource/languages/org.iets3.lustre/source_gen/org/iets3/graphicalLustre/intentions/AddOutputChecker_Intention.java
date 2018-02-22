@@ -15,12 +15,15 @@ import java.util.Collections;
 import jetbrains.mps.intentions.IntentionExecutableBase;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import com.mbeddr.mpsutil.filepicker.behavior.AbstractPicker__BehaviorDescriptor;
+import com.mbeddr.core.base.behavior.AbstractPicker__BehaviorDescriptor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
+import java.util.List;
+import java.util.Comparator;
+import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.intentions.IntentionDescriptor;
 
@@ -58,6 +61,7 @@ public final class AddOutputChecker_Intention extends IntentionDescriptorBase im
     public void execute(final SNode node, final EditorContext editorContext) {
       final SNode outputChecker = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x4796fa81351044f2L, 0x9810887e950aacc3L, 0x60b8dfab1590c57L, "org.iets3.simulationOutputChecker.structure.SimulinkResultDisplayer"));
       SPropertyOperations.set(outputChecker, MetaAdapterFactory.getProperty(0x4796fa81351044f2L, 0x9810887e950aacc3L, 0x60b8dfab1590c57L, 0x22b33c261aecf1d1L, "filePath"), AbstractPicker__BehaviorDescriptor.getCanonicalPath_id5lKnBeAuKov.invoke(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x1e79d4940d4268d4L, 0x3b5bfd85d286c8e9L, "tmpFilePath"))));
+
       SNode simulinkResult = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xbe728f68d2954af5L, 0xa9aff280cb60ec85L, 0x57a186429f923e3cL, "org.iets3.simulink.resultmodel.structure.SimulinkResult"));
       SPropertyOperations.set(simulinkResult, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "Simulink Result");
 
@@ -73,6 +77,18 @@ public final class AddOutputChecker_Intention extends IntentionDescriptorBase im
           }
         }
       });
+
+      List<SNode> inputCells = SLinkOperations.getChildren(outputChecker, MetaAdapterFactory.getContainmentLink(0x4796fa81351044f2L, 0x9810887e950aacc3L, 0x60b8dfab1590c57L, 0x60b8dfab159e014L, "inputCells"));
+
+      Iterable<SNode> seq = ListSequence.fromList(inputCells).sort(new Comparator<SNode>() {
+        public int compare(SNode a, SNode b) {
+          return SPropertyOperations.getString(a, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")).compareToIgnoreCase(SPropertyOperations.getString(b, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+        }
+      }, true);
+
+      ListSequence.fromList(SLinkOperations.getChildren(outputChecker, MetaAdapterFactory.getContainmentLink(0x4796fa81351044f2L, 0x9810887e950aacc3L, 0x60b8dfab1590c57L, 0x60b8dfab159e014L, "inputCells"))).clear();
+      ListSequence.fromList(SLinkOperations.getChildren(outputChecker, MetaAdapterFactory.getContainmentLink(0x4796fa81351044f2L, 0x9810887e950aacc3L, 0x60b8dfab1590c57L, 0x60b8dfab159e014L, "inputCells"))).addSequence(Sequence.fromIterable(seq));
+
       SModelOperations.addRootNode(SNodeOperations.getModel(node), outputChecker);
     }
     @Override
