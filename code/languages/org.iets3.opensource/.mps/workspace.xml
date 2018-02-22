@@ -6,31 +6,7 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0f08f42-6483-495d-bd03-fb18c0c8d10b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.lustre/classes_gen/org/iets3/graphicalLustre/intentions/AddOutputChecker_Intention$IntentionImplementation.class" afterPath="$PROJECT_DIR$/languages/org.iets3.lustre/classes_gen/org/iets3/graphicalLustre/intentions/AddOutputChecker_Intention$IntentionImplementation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.lustre/classes_gen/org/iets3/graphicalLustre/intentions/SimulinkModelGenerator_Intention$IntentionImplementation.class" afterPath="$PROJECT_DIR$/languages/org.iets3.lustre/classes_gen/org/iets3/graphicalLustre/intentions/SimulinkModelGenerator_Intention$IntentionImplementation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.lustre/classes_gen/org/iets3/graphicalLustre/structure/StructureAspectDescriptor.class" afterPath="$PROJECT_DIR$/languages/org.iets3.lustre/classes_gen/org/iets3/graphicalLustre/structure/StructureAspectDescriptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.simulink.resultmodel/classes_gen/org/iets3/simulink/resultmodel/editor/OutputCell_Editor.class" afterPath="$PROJECT_DIR$/languages/org.iets3.simulink.resultmodel/classes_gen/org/iets3/simulink/resultmodel/editor/OutputCell_Editor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.lustre/models/intentions.mps" afterPath="$PROJECT_DIR$/languages/org.iets3.lustre/models/intentions.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.lustre/models/org/iets3/graphicalLustre/structure.mps" afterPath="$PROJECT_DIR$/languages/org.iets3.lustre/models/org/iets3/graphicalLustre/structure.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.lustre/org.iets3.graphicalLustre.mpl" afterPath="$PROJECT_DIR$/languages/org.iets3.lustre/org.iets3.graphicalLustre.mpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.lustre/source_gen.caches/org/iets3/graphicalLustre/generated" afterPath="$PROJECT_DIR$/languages/org.iets3.lustre/source_gen.caches/org/iets3/graphicalLustre/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.lustre/source_gen.caches/org/iets3/graphicalLustre/intentions/dependencies" afterPath="$PROJECT_DIR$/languages/org.iets3.lustre/source_gen.caches/org/iets3/graphicalLustre/intentions/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.lustre/source_gen.caches/org/iets3/graphicalLustre/intentions/generated" afterPath="$PROJECT_DIR$/languages/org.iets3.lustre/source_gen.caches/org/iets3/graphicalLustre/intentions/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.lustre/source_gen.caches/org/iets3/graphicalLustre/structure/generated" afterPath="$PROJECT_DIR$/languages/org.iets3.lustre/source_gen.caches/org/iets3/graphicalLustre/structure/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.lustre/source_gen/org/iets3/graphicalLustre/intentions/AddOutputChecker_Intention.java" afterPath="$PROJECT_DIR$/languages/org.iets3.lustre/source_gen/org/iets3/graphicalLustre/intentions/AddOutputChecker_Intention.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.lustre/source_gen/org/iets3/graphicalLustre/intentions/SimulinkModelGenerator_Intention.java" afterPath="$PROJECT_DIR$/languages/org.iets3.lustre/source_gen/org/iets3/graphicalLustre/intentions/SimulinkModelGenerator_Intention.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.lustre/source_gen/org/iets3/graphicalLustre/structure/StructureAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/org.iets3.lustre/source_gen/org/iets3/graphicalLustre/structure/StructureAspectDescriptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.simulink.resultmodel/classes_gen/org/iets3/simulink/resultmodel/editor/trace.info" afterPath="$PROJECT_DIR$/languages/org.iets3.simulink.resultmodel/classes_gen/org/iets3/simulink/resultmodel/editor/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.simulink.resultmodel/source_gen.caches/org/iets3/simulink/resultmodel/editor/dependencies" afterPath="$PROJECT_DIR$/languages/org.iets3.simulink.resultmodel/source_gen.caches/org/iets3/simulink/resultmodel/editor/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.simulink.resultmodel/source_gen.caches/org/iets3/simulink/resultmodel/editor/generated" afterPath="$PROJECT_DIR$/languages/org.iets3.simulink.resultmodel/source_gen.caches/org/iets3/simulink/resultmodel/editor/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.simulink.resultmodel/source_gen.caches/org/iets3/simulink/resultmodel/generated" afterPath="$PROJECT_DIR$/languages/org.iets3.simulink.resultmodel/source_gen.caches/org/iets3/simulink/resultmodel/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.simulink.resultmodel/source_gen/org/iets3/simulink/resultmodel/editor/OutputCell_Editor.java" afterPath="$PROJECT_DIR$/languages/org.iets3.simulink.resultmodel/source_gen/org/iets3/simulink/resultmodel/editor/OutputCell_Editor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.simulink.resultmodel/source_gen/org/iets3/simulink/resultmodel/editor/trace.info" afterPath="$PROJECT_DIR$/languages/org.iets3.simulink.resultmodel/source_gen/org/iets3/simulink/resultmodel/editor/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/models/org/iets3/ears/gxw/examples/ContainerFusing.mps" afterPath="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/models/org/iets3/ears/gxw/examples/ContainerFusing.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/models/textGenOutput.txt" afterPath="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/models/textGenOutput.txt" />
-    </list>
+    <list default="true" id="f0f08f42-6483-495d-bd03-fb18c0c8d10b" name="Default" comment="" />
     <ignored path="org.iets3.opensource.iws" />
     <ignored path=".mps/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -114,12 +90,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="liquid mixer controller" pinned="false" current-in-tab="false">
+      <file leaf-file-name="liquid mixer controller" pinned="false" current-in-tab="true">
         <entry file="mps://node://org.iets3.ears.gxw.examples/org.iets3.ears.gxw.examples.ContainerFusing/liquid mixer controller">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
               <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="166" />
+                    <property name="caretXRelative" value="4" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/6476888385479457875" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
                 <errorMarkers />
                 <transactionalProperties />
                 <foldable>
@@ -146,91 +132,7 @@
                 </foldable>
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/8872800606724977163" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-                <enabledHints>
-                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
-                </enabledHints>
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller Holder" pinned="false" current-in-tab="true">
-        <entry file="mps://node://org.iets3.ears.gxw.examples/org.iets3.ears.gxw.examples.ContainerFusing/Controller Holder">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="161" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_path" cellNumber="0" isInList="false">
-                      <node node_reference="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/8872800606724977163" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable>
-                  <collapsedElement isCollapsed="false">
-                    <cellIdElement cellId="Collection_gwj1q3_a" cellNumber="0" isInList="false">
-                      <node node_reference="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/1074157294387793646" />
-                    </cellIdElement>
-                  </collapsedElement>
-                </foldable>
-                <restoreAlways>
-                  <collapsedElement isCollapsed="false">
-                    <cellIdElement cellId="Collection_gwj1q3_a" cellNumber="0" isInList="false">
-                      <node node_reference="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/1074157294387793646" />
-                    </cellIdElement>
-                  </collapsedElement>
-                </restoreAlways>
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/8872800606724977163" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-                <enabledHints>
-                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
-                </enabledHints>
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimulinkResultDisplayer" pinned="false" current-in-tab="false">
-        <entry file="mps://node://org.iets3.ears.gxw.examples/org.iets3.ears.gxw.examples.ContainerFusing/SimulinkResultDisplayer">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="51" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="empty_sequence" cellNumber="0" isInList="false">
-                      <node node_reference="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/1074157294388664014" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/8872800606724977163" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/6476888385479457875" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -266,7 +168,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/8872800606724977163" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/6476888385479457875" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -302,7 +204,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/8872800606724977163" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/6476888385479457875" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -349,7 +251,7 @@
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/8872800606724977163" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/6476888385479457875" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -493,7 +395,7 @@
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/8872800606724977163" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/6476888385479457875" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -529,7 +431,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/8872800606724977163" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/6476888385479457875" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -565,7 +467,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/8872800606724977163" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/6476888385479457875" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -916,16 +818,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="gxw" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -948,11 +840,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gxw" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/org.iets3.ears.gxw.examples.msd" />
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -977,6 +865,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="org" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gxw" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/org.iets3.ears.gxw.examples.msd" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -1002,7 +904,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="1074157294387793646" />
+              <option name="myItemId" value="6476888385479457875" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -1136,142 +1038,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://node://org.iets3.ears.gxw.examples/org.iets3.ears.gxw.examples.ContainerFusing/SimulinkResultDisplayer">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="19" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="empty_sequence" cellNumber="0" isInList="false">
-                  <node node_reference="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/6747928404112659074" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/6476888385480721721" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints>
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
-            </enabledHints>
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.iets3.ears.gxw.examples/org.iets3.ears.gxw.examples.ContainerFusing/liquid mixer controller">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="210" />
-                <property name="caretXRelative" value="4" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/6476888385480721721" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/6476888385480721721" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints>
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
-            </enabledHints>
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.iets3.ears.gxw.examples/org.iets3.ears.gxw.examples.ContainerFusing/liquid mixer controller">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="210" />
-                <property name="caretXRelative" value="4" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/6476888385480721721" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/6747928404112659074" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints>
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
-            </enabledHints>
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.iets3.ears.gxw.examples/org.iets3.ears.gxw.examples.ContainerFusing/SimulinkResultDisplayer">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="19" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="empty_sequence" cellNumber="0" isInList="false">
-                  <node node_reference="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/6747928404112659074" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/6747928404112659074" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints>
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
-            </enabledHints>
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://org.iets3.ears.gxw.examples/org.iets3.ears.gxw.examples.ContainerFusing/SimulinkResultDisplayer">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -1961,7 +1727,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/8872800606724977163" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/6476888385479457875" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2201,7 +1967,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/8872800606724977163" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/6476888385479457875" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2234,7 +2000,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/8872800606724977163" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/6476888385479457875" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2888,7 +2654,7 @@
               </collapsedElement>
             </restoreAlways>
           </memento>
-          <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/8872800606724977163" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/6476888385479457875" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -3102,6 +2868,187 @@
             </restoreAlways>
           </memento>
           <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/1074157294387793646" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.iets3.ears.gxw.examples/org.iets3.ears.gxw.examples.ContainerFusing/Controller Holder">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="161" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_path" cellNumber="0" isInList="false">
+                  <node node_reference="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/8872800606724977163" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_gwj1q3_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/1074157294387793646" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_gwj1q3_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/1074157294387793646" />
+                </cellIdElement>
+              </collapsedElement>
+            </restoreAlways>
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/1074157294388664014" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.iets3.ears.gxw.examples/org.iets3.ears.gxw.examples.ContainerFusing/SimulinkResultDisplayer">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="51" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_sequence" cellNumber="0" isInList="false">
+                  <node node_reference="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/1074157294388664014" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/1074157294388664014" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.iets3.ears.gxw.examples/org.iets3.ears.gxw.examples.ContainerFusing/Controller Holder">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="161" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_path" cellNumber="0" isInList="false">
+                  <node node_reference="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/8872800606724977163" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_gwj1q3_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/1074157294387793646" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_gwj1q3_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/1074157294387793646" />
+                </cellIdElement>
+              </collapsedElement>
+            </restoreAlways>
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/6476888385479457875" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.iets3.ears.gxw.examples/org.iets3.ears.gxw.examples.ContainerFusing/liquid mixer controller">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="166" />
+                <property name="caretXRelative" value="4" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/6476888385479457875" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_listOfAliases" cellNumber="0" isInList="false">
+                  <node node_reference="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/6476888385479457875" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_listOfResponses" cellNumber="0" isInList="false">
+                  <node node_reference="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/6476888385479457875" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_listOfTriggers" cellNumber="0" isInList="false">
+                  <node node_reference="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/6476888385479457875" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_listOfComponents" cellNumber="0" isInList="false">
+                  <node node_reference="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/6476888385479457875" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4bd8b815-2b25-403c-8350-1fb291169cd1(org.iets3.ears.gxw.examples.ContainerFusing)/6476888385479457875" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
