@@ -8,6 +8,7 @@
   <imports>
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="68mc" ref="r:2a10821d-612f-4a73-b7b0-ed6b57106321(com.mbeddr.mpsutil.filepicker.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
@@ -177,7 +178,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="tmpFilePath" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="vs0r:4eXJ6EOwIAn" resolve="FileSystemDirPicker" />
+      <ref role="20lvS9" to="68mc:4eXJ6EOwIAn" resolve="FileSystemDirPicker" />
     </node>
     <node concept="1QGGSu" id="2t6o__8zuHz" role="rwd14">
       <property role="1iqoE4" value="${iets3.github.opensource.home}/code/languages/org.iets3.opensource/languages/org.iets3.ears.gxw/icons/GXWController.png" />

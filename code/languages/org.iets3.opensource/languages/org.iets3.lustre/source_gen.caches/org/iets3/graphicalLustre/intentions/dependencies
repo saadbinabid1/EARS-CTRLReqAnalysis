@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
   <dependency className="org.iets3.graphicalLustre.intentions.AddOutputChecker_Intention" file="AddOutputChecker_Intention.java">
-    <classNode dependClassName="com.mbeddr.core.base.behavior.AbstractPicker__BehaviorDescriptor" />
+    <classNode dependClassName="com.mbeddr.mpsutil.filepicker.behavior.AbstractPicker__BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Iterable" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
@@ -75,7 +75,7 @@
   </dependency>
   <dependency className="org.iets3.graphicalLustre.intentions.SimulinkModelGenerator_Intention" file="SimulinkModelGenerator_Intention.java">
     <classNode dependClassName="com.mathworks.engine.MatlabEngine" />
-    <classNode dependClassName="com.mbeddr.core.base.behavior.AbstractPicker__BehaviorDescriptor" />
+    <classNode dependClassName="com.mbeddr.mpsutil.filepicker.behavior.AbstractPicker__BehaviorDescriptor" />
     <classNode dependClassName="java.io.BufferedWriter" />
     <classNode dependClassName="java.io.File" />
     <classNode dependClassName="java.io.FileWriter" />

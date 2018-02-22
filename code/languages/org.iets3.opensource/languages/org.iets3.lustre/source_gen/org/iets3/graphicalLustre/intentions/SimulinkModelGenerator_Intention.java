@@ -15,7 +15,7 @@ import java.util.Collections;
 import jetbrains.mps.intentions.IntentionExecutableBase;
 import java.util.Map;
 import java.util.HashMap;
-import com.mbeddr.core.base.behavior.AbstractPicker__BehaviorDescriptor;
+import com.mbeddr.mpsutil.filepicker.behavior.AbstractPicker__BehaviorDescriptor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import java.io.File;
 import java.io.FileWriter;
