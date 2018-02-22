@@ -1,21 +1,24 @@
-##  While indicator high school is off and indicator professor is off when pupil button 0 is pressed, the quiz controller shall blink indicator pupil until pupil button 1 is pressed or indicator high school is off and indicator professor is off or reset button is pressed.
-[] ((indicatorhighschoolisoff && indicatorprofessorisoff && pupilbutton0ispressed) -> (indicatorpupilblink W (pupilbutton1ispressed || (indicatorhighschoolisoff && indicatorprofessorisoff) || resetbuttonispressed)))
+##  While not liquid level of first load cycle equals level l1 when start button is pressed, the liquid mixer controller shall open valve 0 until liquid level of first load cycle equals level l1 or emergency button is pressed.
+[] ((!liquidleveloffirstloadcycleequalslevell1 && startbuttonispressed) -> (valve0open W (liquidleveloffirstloadcycleequalslevell1 || emergencybuttonispressed)))
 
-##  While indicator high school is off and indicator professor is off when pupil button 1 is pressed, the quiz controller shall blink indicator pupil until pupil button 0 is pressed or indicator high school is off and indicator professor is off or reset button is pressed.
-[] ((indicatorhighschoolisoff && indicatorprofessorisoff && pupilbutton1ispressed) -> (indicatorpupilblink W (pupilbutton0ispressed || (indicatorhighschoolisoff && indicatorprofessorisoff) || resetbuttonispressed)))
+##  When liquid level of first load cycle equals level l1, the liquid mixer controller shall not open valve 0 until start button is pressed or not liquid level of first load cycle equals level l1 or emergency button is pressed.
+[] (liquidleveloffirstloadcycleequalslevell1 -> (!valve0open W (startbuttonispressed || !liquidleveloffirstloadcycleequalslevell1 || emergencybuttonispressed)))
 
-##  While indicator pupil is off and indicator professor is off when high school button is pressed, the quiz controller shall blink indicator high school until reset button is pressed.
-[] ((indicatorpupilisoff && indicatorprofessorisoff && highschoolbuttonispressed) -> (indicatorhighschoolblink W resetbuttonispressed))
+##  While not liquid level of second load cycle equals level l2 when liquid level of first load cycle equals level l1, the liquid mixer controller shall open valve 1 until liquid level of second load cycle equals level l2 or emergency button is pressed.
+[] ((!liquidlevelofsecondloadcycleequalslevell2 && liquidleveloffirstloadcycleequalslevell1) -> (valve1open W (liquidlevelofsecondloadcycleequalslevell2 || emergencybuttonispressed)))
 
-##  While indicator pupil is off and indicator high school is off when professor button 0 is pressed, the quiz controller shall blink indicator professor until professor button 1 is pressed or indicator pupil is off and indicator high school is off or reset button is pressed.
-[] ((indicatorpupilisoff && indicatorhighschoolisoff && professorbutton0ispressed) -> (indicatorprofessorblink W (professorbutton1ispressed || (indicatorpupilisoff && indicatorhighschoolisoff) || resetbuttonispressed)))
+##  When liquid level of second load cycle equals level l2, the liquid mixer controller shall not open valve 1 and start one minute timer and start stirring motor until liquid level of first load cycle equals level l1 or not liquid level of second load cycle equals level l2 or one minute timer expired or emergency button is pressed.
+[] (liquidlevelofsecondloadcycleequalslevell2 -> ((!valve1open && oneminutetimerstart && stirringmotorstart) W (liquidleveloffirstloadcycleequalslevell1 || !liquidlevelofsecondloadcycleequalslevell2 || oneminutetimerexpired || emergencybuttonispressed)))
 
-##  While indicator pupil is off and indicator high school is off when professor button 1 is pressed, the quiz controller shall blink indicator professor until professor button 0 is pressed or indicator pupil is off and indicator high school is off or reset button is pressed.
-[] ((indicatorpupilisoff && indicatorhighschoolisoff && professorbutton1ispressed) -> (indicatorprofessorblink W (professorbutton0ispressed || (indicatorpupilisoff && indicatorhighschoolisoff) || resetbuttonispressed)))
+##  When one minute timer expired, the liquid mixer controller shall not start stirring motor and start one minute timer and start two minute timer until liquid level of second load cycle equals level l2 or emergency button is pressed.
+[] (oneminutetimerexpired -> ((!stirringmotorstart && oneminutetimerstart && twominutetimerstart) W (liquidlevelofsecondloadcycleequalslevell2 || emergencybuttonispressed)))
 
-##  When reset button is pressed, the quiz controller shall not blink indicator high school and not blink indicator professor and blink indicator pupil until pupil button 0 is pressed or indicator high school is off and indicator professor is off or pupil button 1 is pressed or indicator high school is off and indicator professor is off or high school button is pressed or indicator pupil is off and indicator professor is off or professor button 0 is pressed or indicator pupil is off and indicator high school is off or professor button 1 is pressed or indicator pupil is off and indicator high school is off.
-[] (resetbuttonispressed -> ((!indicatorhighschoolblink && !indicatorprofessorblink && indicatorpupilblink) W (pupilbutton0ispressed || (indicatorhighschoolisoff && indicatorprofessorisoff) || pupilbutton1ispressed || (indicatorhighschoolisoff && indicatorprofessorisoff) || highschoolbuttonispressed || (indicatorpupilisoff && indicatorprofessorisoff) || professorbutton0ispressed || (indicatorpupilisoff && indicatorhighschoolisoff) || professorbutton1ispressed || (indicatorpupilisoff && indicatorhighschoolisoff))))
+##  When two minute timer expired, the liquid mixer controller shall not open valve 2 until emergency button is pressed.
+[] (twominutetimerexpired -> (!valve2open W emergencybuttonispressed))
+
+##  When emergency button is pressed, the liquid mixer controller shall not open valve 0 and not open valve 1 and not open valve 2 and not start stirring motor until start button is pressed or not liquid level of first load cycle equals level l1 or liquid level of first load cycle equals level l1 or liquid level of first load cycle equals level l1 or not liquid level of second load cycle equals level l2 or liquid level of second load cycle equals level l2 or one minute timer expired or two minute timer expired.
+[] (emergencybuttonispressed -> ((!valve0open && !valve1open && !valve2open && !stirringmotorstart) W (startbuttonispressed || !liquidleveloffirstloadcycleequalslevell1 || liquidleveloffirstloadcycleequalslevell1 || liquidleveloffirstloadcycleequalslevell1 || !liquidlevelofsecondloadcycleequalslevell2 || liquidlevelofsecondloadcycleequalslevell2 || oneminutetimerexpired || twominutetimerexpired)))
 
 
-INPUT indicatorpupilisoff, indicatorhighschoolisoff, indicatorprofessorisoff, professorbutton0ispressed, professorbutton1ispressed, pupilbutton0ispressed, pupilbutton1ispressed, highschoolbuttonispressed, resetbuttonispressed
-OUTPUT indicatorpupilblink, indicatorhighschoolblink, indicatorprofessorblink
+INPUT oneminutetimerexpired, twominutetimerexpired, startbuttonispressed, liquidleveloffirstloadcycleequalslevell1, liquidlevelofsecondloadcycleequalslevell2, emergencybuttonispressed
+OUTPUT valve1open, oneminutetimerstart, valve0open, valve2open, twominutetimerstart, stirringmotorstart

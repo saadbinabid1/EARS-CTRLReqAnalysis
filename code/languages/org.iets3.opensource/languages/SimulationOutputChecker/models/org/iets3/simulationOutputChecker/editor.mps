@@ -659,7 +659,7 @@
                   <node concept="1pGfFk" id="obzvELt7II" role="2ShVmc">
                     <ref role="37wK5l" to="dxuu:~JLabel.&lt;init&gt;(java.lang.String)" resolve="JLabel" />
                     <node concept="Xl_RD" id="obzvELt7IJ" role="37wK5m">
-                      <property role="Xl_RC" value="allowSameInput" />
+                      <property role="Xl_RC" value="  Allow Repeated Inputs" />
                     </node>
                   </node>
                 </node>
@@ -734,7 +734,7 @@
                   <node concept="1pGfFk" id="obzvELthKQ" role="2ShVmc">
                     <ref role="37wK5l" to="dxuu:~JLabel.&lt;init&gt;(java.lang.String)" resolve="JLabel" />
                     <node concept="Xl_RD" id="obzvELthKR" role="37wK5m">
-                      <property role="Xl_RC" value="allowSameOutput" />
+                      <property role="Xl_RC" value="  Allow Simultaneous Inputs" />
                     </node>
                   </node>
                 </node>

@@ -157,6 +157,9 @@
     <node concept="3EZMnI" id="6LfPEEgAmVL" role="2wV5jI">
       <node concept="3F0A7n" id="6LfPEEgAmVM" role="3EZMnx">
         <ref role="1NtTu8" to="qd5k:5uxx$av$zTR" resolve="outputValue" />
+        <node concept="Veino" id="4ZpWTZ1PIo9" role="3F10Kt">
+          <property role="Vb096" value="WHITE" />
+        </node>
       </node>
       <node concept="3F0ifn" id="6LfPEEgAmVN" role="3EZMnx">
         <property role="3F0ifm" value=":" />

@@ -124,13 +124,13 @@ public class SimulinkResultDisplayer_Editor extends DefaultNodeEditor {
 
     String[] comboboxOptions = {"true", "false"};
 
-    JLabel label1 = new JLabel("allowSameInput");
+    JLabel label1 = new JLabel("  Allow Repeated Inputs");
     card1.add(label1);
     final JComboBox<String> comboboxAllowSameInput = new JComboBox<String>(comboboxOptions);
     comboboxAllowSameInput.setEditable(false);
     card1.add(comboboxAllowSameInput);
 
-    JLabel label2 = new JLabel("allowSameOutput");
+    JLabel label2 = new JLabel("  Allow Simultaneous Inputs");
     card1.add(label2);
     final JComboBox<String> comboboxAllowSameOutput = new JComboBox<String>(comboboxOptions);
     comboboxAllowSameOutput.setEditable(false);
