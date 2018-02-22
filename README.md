@@ -2,7 +2,7 @@
 
 This project has all the code necessary to run the EARS-CTRL project for generating and simulating controllers from the EARS language 
 
-Video demo: https://youtu.be/z7xdDYrNLTo
+Video demo: https://youtu.be/IOyFRd6mbd0
 
 
 ## Install instructions
