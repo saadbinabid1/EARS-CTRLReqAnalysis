@@ -9,7 +9,7 @@ Video demo: https://youtu.be/IOyFRd6mbd0
 
 1. Install MPS 3.4.3 (https://confluence.jetbrains.com/display/MPS/JetBrains+MPS+3.4+Download+Page)
 
-2. Install the _mbeddr_ plugins for MPS 3.4.3 (follow the instructions at http://mbeddr.com/download.html)
+2. Install the _mbeddr_ plugins for MPS 3.4.3 (follow the instructions at http://mbeddr.com/download.html and install the plugins from https://github.com/mbeddr/mbeddr.core/releases/tag/nightly-510-MPS-3.4.3)
 
 3. Install the Matlab/Simulink (Version R2017a) (https://de.mathworks.com/products/simulink.html)
 
